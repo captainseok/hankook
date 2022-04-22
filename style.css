@@ -1,0 +1,204 @@
+/*Global*/
+:root{
+    /*Color*/
+
+    /*Font-size*/
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+    /*Font weight*/
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+
+    /*Size*/
+    --size-border-radius: 4px;
+
+    /*animation*/
+    --animation-duration: 300ms;
+}
+/*Universal tags*/
+
+*{
+    box-sizing: border-box;
+}
+
+ul, li{
+    list-style: none;
+}
+#header{
+    background: url('image/main_visual.jpg') center;
+    height:100vh;
+}
+
+#navbar{
+    display:flex;
+}
+.navbar__list{
+    display: flex;
+    align-items: center;
+}
+.navbar__home{
+    background:url(https://cdn.hankook-precisionworks.com/static/assets/img/ko/pc/common/img_logo_w.png);
+    width:247px;
+    height:29px;
+    padding-left: 100px;
+    position:relative;
+    left:30px;
+}
+.home__title{
+    display:none;
+}
+.navbar__menus{
+    display:flex;
+    padding-left: 300px;
+}
+.navbar__menu{
+    display:flex;
+    justify-content: space-between;
+    margin:30px;
+    color:white;
+}
+.navbar__title{
+    font-size: 30px;
+    position:relative;
+    top:150px;
+    display:flex;
+    justify-content:center;
+    align-self: center;
+    color:white
+}
+.navbar__menu__right{
+    color:skyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    display:flex;
+    margin:50px;
+
+}
+.skill__description{
+    margin:100px;
+}
+.skill__description2{
+    background:url(	https://cdn.hankook-precisionworks.com/static/assets/img/ko/pc/main/bg_maincont02.jpg);
+    width:100vw;
+    height:100vh;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.animate {
+    animation: fadeIn 1s forwards ease-in;
+    transition: 1.2s ease-in-out;
+}
+
+.skill__contents{
+    display:flex;
+    flex-direction: column;
+}
+.skill__title{
+    padding-top:80px;
+    font-size: 30px;
+}
+.skill__explain{
+    font-size: 12px;
+}
+.skills__vision{
+    background:url(https://cdn.hankook-precisionworks.com/static/assets/img/ko/pc/main/bg_main_vision.jpg);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill__plot{
+    display:flex;
+    flex-direction: column;
+}
+
+.vision{
+    color:orange;
+}
+.vision__plot{
+    color:white;
+    font-size: 40px;
+}
+
+/*technologies*/
+
+
+.technologies{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.technologies__head{
+    display: flex;
+    justify-content: space-between;
+}
+.technology{
+  transition:all 300ms ease;
+}
+.head__title{
+    color:darkcyan;
+    padding-left: 50px;
+}
+.head__service{
+    padding-right:50px;
+}
+.technology__description{
+    color:white;
+    position:relative;
+    bottom:150px;
+    left:40px;
+    font-size:20px;
+}
+
+/*service*/
+.services{
+    display:flex;
+    justify-content: space-around
+}
+
+/*footer*/
+#footer{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+}
+.footer__title{
+    text-align: center;
+    padding-top:20px;
+    color:white;
+}
+.footer__contents{
+    display: flex;
+    justify-content: space-evenly
+}
+.footer__menu{
+    color:gray;
+    padding:10px;
+    font-size: 12px;
+    position:relative;
+}
+.menu__title{
+    font-size:15px;
+    color:white;
+}
+.footer__line{
+    border-inline:1px;
+}
+.footer__link{
+    color:gray;
+}
+.footer__final{
+    color:gray;
+}
